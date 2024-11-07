@@ -1,0 +1,16 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#board-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board-canvas {
+    height: calc(100% - 20px);
+    aspect-ratio: 1/1;
+}
